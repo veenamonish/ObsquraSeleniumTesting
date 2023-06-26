@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <classes>
+      <class name="Testcases.NewTest">
+        <methods>
+          <include name="a"/>
+          <include name="b"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Testcases.NewTest -->
+      <class name="Testcases.CheckBox">
+        <methods>
+          <include name="check"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Testcases.CheckBox -->
+      <class name="Testcases.RadioButton">
+        <methods>
+          <include name="radiobutton"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.RadioButton -->
+      <class name="Testcases.Alert">
+        <methods>
+          <include name="PromptBoxAlertClick"/>
+          <include name="beforeTest"/>
+          <include name="alertMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.Alert -->
+      <class name="Testcases.MultipleWindow">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.MultipleWindow -->
+      <class name="Testcases.Frames">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="frame"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases.Frames -->
+      <class name="Testcases.DropDown">
+        <methods>
+          <include name="dropDownScenario"/>
+          <include name="afterTest"/>
+          <include name="dropDownMultiColor"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Testcases.DropDown -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
